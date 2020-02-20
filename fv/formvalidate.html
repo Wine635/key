@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+<div class="container col-md-3">
+<form autocomplete="off">
+    <div class="form-row">
+       <div class="col-md-8 mb-3">
+        <div>
+          <label for="checkname">Enter Yor Name</label>
+        <input type="name"  class="form-control" name="name" id="name"  value="">
+          <div class="valid-feedback">
+            Yor name is valid!
+          </div>
+        <div class="invalid-feedback">
+          Don't start with number and between 12 and 15 characters!
+         </div>
+         
+        </div>
+         
+       
+        <div>
+        <label for="checkemail"> Enter Email </label>
+      <input type="email"  class="form-control" name="email" id="email"  value="">
+        <div class="valid-feedback">
+          Valid email!
+        </div>
+      <div class="invalid-feedback">
+        Don't start with number and between 12 and 15 characters!
+       </div>
+     </div>
+     <div>
+       <label for="checkpassord">Enter Password</label>
+      <input type="text"  class="form-control" name="password" id="password"  value="">
+        <div class="valid-feedback">
+          Valid password! 
+        </div>
+      <div class="invalid-feedback">
+       Between 8 and 10 characters!
+       </div>
+    </div>
+    
+     </div>
+    </div>
+    <button type="submit" class="btn btn-success" id="button" disabled name="disabled">Submit</button>
+  
+   </form>
+  </div>
+  <div id="name1" >  </div>
+  <div id="email1">
+
+  </div>
+  <div id="pass1">
+
+  </div>
+
+
+  <script src="formvalidate.js"></script>
+  </body>
+  </html>
